@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/', (request, response) => {
-    response.json({msg: 'Hello World'});
-});
+app.get('/', (req, res) => {
+    res.send('Hello DevPleno!')
+  })
 
 //OMNISTACK 11 - 09 minutos - VIDEO 02
 
